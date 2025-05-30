@@ -1,0 +1,14 @@
+[package]
+name = "korneplod"
+version = "0.14.88"
+edition = "2024"
+
+[dependencies]
+async-net = "2.0.0"
+async-std = "1.13.1"
+chacha20 = {version = "0.10.0-pre.3", features = ["rng"]}
+futures = "0.3.31"
+futures-lite = "2.6.0"
+ml-kem = "0.2.1"
+rand = "0.8.5"
+rand_core = "0.6.4"
