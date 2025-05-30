@@ -2,11 +2,17 @@
 name = "korneplod"
 version = "0.14.88"
 edition = "2024"
+authors = ["grygory zhimolost'"]
+license = "GPL-3.0"
+description = "A library for establishing secure connections and transfer encrypted by chacha20 data between nodes. Key exchange is powered by ml-kem algorithm"
+repository = "https://github.com/GrigoryZhimolost/korneplod"
+keywords = ["crypto", "asynchronous", "post-quantum", "quantum-safe"]
+exclude = ["tests/"]
 
 [dependencies]
 async-net = "2.0.0"
 async-std = "1.13.1"
-chacha20 = {version = "0.10.0-pre.3", features = ["rng"]}
+chacha20 = { version = "0.10.0-pre.3", features = ["rng"] }
 futures = "0.3.31"
 futures-lite = "2.6.0"
 ml-kem = "0.2.1"
