@@ -1,6 +1,6 @@
 [package]
 name = "korneplod"
-version = "0.14.88"
+version = "0.14.89"
 edition = "2024"
 authors = ["grygory zhimolost'"]
 license = "GPL-3.0"
