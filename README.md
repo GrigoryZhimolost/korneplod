@@ -1,3 +1,6 @@
+# Pls dont use it for now
+i found some bugs with passwords but dont have enough time to fix. In addition to some performance issues, all 1.x versions shall be awesome when i release them
+
 # What is this
 This library is for transfering encrypted data through TCP/IP, just for this. It uses ml-kem and ChaCha20 to encrypt data, so you don't have to worry about your data's safety.
 
